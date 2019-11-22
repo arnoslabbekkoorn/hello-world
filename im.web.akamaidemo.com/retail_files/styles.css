@@ -1,0 +1,482 @@
+/* CSS Document */
+
+
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    //vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    //border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+/* End of CSS Reset */
+
+
+body {text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #414141;
+    color: #333333;
+    clear: left;
+    font: 100% Calibri, Verdana, Helvetica, Arial, sans-serif;
+    margin: 0;
+    //padding-left: 0.5em;
+} 
+
+h1 {
+    font-size: 280%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 100%;
+    text-align: center;
+}
+
+
+p
+{
+    font-size: 130%;
+    text-align: center;
+    padding: 8px;
+    color: #585858;
+    color: #424242;
+}
+
+
+#main-logo
+{
+    padding-top: 4em;
+    padding-bottom: 2em;
+    text-align: center;
+    z-index: 10;
+    overflow:auto;
+}
+
+#TextLogo
+{
+    font-family: Verdana, Calibri, Verdana, Helvetica, Arial, sans-serif;
+    font-size: 800%;
+    text-align: center;
+	color: white;
+    font-family: 'intro_rust_gbase_2_line', Arial, sans-serif;
+
+}
+#TextLogo a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+#MyNav {
+    //position: fixed;
+    top: 0;
+    width: 100%; /* this makes the whole thing show up centered */
+    //height: auto;
+    overflow: auto;
+    text-align: center;
+    //font: 100% Calibri, Verdana, Helvetica, Arial, sans-serif;
+    font-family: 'Karla', Calibri, Verdana, Helvetica, Arial, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    //background-color: #414141;
+    //background-color: #333333;
+    z-index: 100;
+    letter-spacing: .1em;
+    background-color: #CCCCCC;
+}
+
+
+
+#MyNav a,  #MyNav a:link, #MyNav a:visited {
+        font-size: .9em;
+        line-height: 1.8em;
+        padding: 5px 10px;
+        color: white; //#ededed;
+		color: #333333;
+		color: white;
+        //color: rgba(256, 256, 256, .8);
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+
+#MyNav ul li { display: inline; font-size: 150%; }
+
+
+#MyNav ul li {
+    text-decoration: none;
+    //padding: .2em 1em;
+}    
+
+
+#CartItems {
+    //position: fixed;
+
+    // Center it
+    width: 700px ;
+    margin-left: auto ;
+    margin-right: auto ;
+
+    top: 0;
+    width: 100%; /* this makes the whole thing show up centered */
+    //height: auto;
+    overflow: auto;
+    text-align: center;
+    //font: 100% Calibri, Verdana, Helvetica, Arial, sans-serif;
+    font-family: 'Karla', Calibri, Verdana, Helvetica, Arial, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    //background-color: #414141;
+    //background-color: #333333;
+    color: white;
+    z-index: 100;
+    letter-spacing: .1em;
+}
+
+#CartItems a,  #CartItems a:link, #CartItems a:visited {
+        font-size: .9em;
+        line-height: 1.8em;
+        padding: 5px 10px;
+        color: white; //#ededed;
+        color: #333333;
+        color: white;
+        //color: rgba(256, 256, 256, .8);
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+#AdSection
+{
+    //position: fixed;
+    top: 0;
+    width: 100%; /* this makes the whole thing show up centered */
+    //height: auto;
+    overflow: auto;
+    //text-align: center;
+    //font: 100% Calibri, Verdana, Helvetica, Arial, sans-serif;
+    font-family: 'Karla', Calibri, Verdana, Helvetica, Arial, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    //background-color: #414141;
+    //background-color: #333333;
+    color: white;
+    z-index: 100;
+    letter-spacing: .1em;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#AdSection img
+{
+    border: 1px solid grey;
+}
+
+#AdSection td
+{
+    padding: 10px;
+}
+
+#AdSection h2
+{
+    //font-family: 'intro_head_rbase', Arial, sans-serif;
+    color: black;
+    margin: auto;
+    width: 60%;
+    //border: 1px solid grey;
+    padding: 10px;
+    right: 0px;
+    font-size: 80%;
+}
+
+#AdSection h3
+{
+    font-size: 120%;
+    color: black;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    right: 0px;
+}
+
+#AdSection h1
+{
+    font-size: 220%;
+    color: black;
+    margin: auto;
+    width: 60%;
+    border: 1px;// solid grey;
+    padding: 10px;
+    right: 0px;
+}
+
+
+#AdSection a,  #AdSection a:link, #AdSection a:visited {
+        font-size: .9em;
+        line-height: 1.8em;
+        padding: 5px 10px;
+        color: white; //#ededed;
+        color: #333333;
+        color: white;
+        //color: rgba(256, 256, 256, .8);
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+
+#AdSection ul li { display: inline; font-size: 150%; }
+
+
+#AdSection ul li {
+    text-decoration: none;
+    //padding: .2em 1em;
+}    
+
+
+
+#ViewCart
+{
+    text-align: right;
+    font-family: 'intro_head_rbase', Arial, sans-serif;
+    padding-right: 50px;
+    padding-right: 2em;
+    color: white;
+}
+
+#ViewCart a
+{
+    font-size: 1.5em;
+    line-height: 1.8em;
+    color: white;
+    text-decoration: none;
+}
+
+#banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 150px; */
+    z-index: -1;
+}
+
+
+#BottomList
+{
+    align-self: center;
+    top: 0;
+    width: 100%; /* this makes the whole thing show up centered */
+    //height: auto;
+    text-align: center;
+    //font: 100% Calibri, Verdana, Helvetica, Arial, sans-serif;
+    font-family: 'Karla', Calibri, Verdana, Helvetica, Arial, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #FFFFFF;
+    //background-color: #333333;
+    z-index: 100;
+    letter-spacing: .1em;
+    overflow:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+#BottomList a,  #BottomList a:link, #BottomList a:visited {
+	font-size: .9em;
+	line-height: 1.8em;
+	padding: 5px 10px;
+	color: white; //#ededed;
+	color: #333333;
+	//color: rgba(256, 256, 256, .8);
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+#BottomList ul li { font-size: 100%; }
+
+
+#BottomList ul li {
+    text-decoration: none;
+    padding: .2em 1em;
+}    
+
+
+#ProductDescriptionArea
+{
+	text-align: center;  /* centers the contents in a cell */
+}
+
+
+#ImagesAndDescription h2, #ImagesAndDescription p, #ImagesAndDescription a
+{
+    color: white;
+    font-size: 150%;
+}
+
+#ImagesAndDescription a
+{
+    font-family: 'Karla', Calibri, Verdana, Helvetica, Arial, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;   
+    font-size: 150%;
+}
+
+#ImagesAndDescription table 
+{ 
+	margin-left:auto; /* center the table */
+	margin-right:auto; /* center the table */
+}
+
+#vert-space
+{
+    block; padding-top: 5em;
+}
+
+
+#imageContainer {overflow:auto;margin-left:auto; margin-right:auto;background-color: #ffffff; }
+#catContainer {float:left;padding-top:15px;padding-bottom:15px;background-color: #ffffff;}
+#catContainer img
+{
+    border: 1px solid grey;
+}
+
+@media only screen and  (max-width : 480px) {
+	#imageContainer {width:95%;}
+	#catContainer {width:100%;}
+	#TextLogo {font-size: 300%;}
+	h3 {font-size: 160%;}
+	#MyNav ul li { display: block;}
+	#body {background-size: 150%;}
+}
+
+
+@media only screen and (min-width : 700px) and (max-width : 1024px) {
+	h3 {font-size: 160%;}
+}
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+	#imageContainer {width:95%;}
+	#catContainer {width:50%;height:240px;}
+	#TextLogo {font-size: 400%;}
+}
+@media only screen and (min-width : 1025px)  {
+	#imageContainer {width:95%;}
+	#catContainer {width:33%;height:340px;}
+	h3 {font-size: 160%;}
+}
+
+@media only screen and (min-width : 640px)  {
+    #catContainer {height:300px;}
+}
+
+@media only screen and (min-width : 890px)  {
+    #catContainer {height:360px;}
+}
+
+@media only screen and (min-width : 1024px)  {
+    #catContainer {height:330px;}
+}
+
+@media only screen and (min-width : 1200px)  {
+    #catContainer {height:400px;}
+}
+
+@media only screen and (min-width : 1700px)  {
+    #catContainer {height:450px;}
+}
+
+@media only screen and (min-width : 2000px)  {
+    #catContainer {height:520px;}
+}
+@media only screen and (min-width : 2400px)  {
+    #catContainer {height:620px;}
+}
+
+#BottomContainer {width:600px;margin-right:auto;margin-left:auto;text-align:center;}
+#BottomDetail {float:left;width:200px;text-align:center;}
+
+@media only screen and  (max-width : 600px) {
+	#BottomContainer {width:100%;}
+	#BottomDetail {width:100%;padding-top:10px;}
+}
+
+/* product specific stuff */
+
+#productContainer {overflow:auto;margin-left:auto; margin-right:auto;background-color: #ffffff;font-family: Verdana, Calibri; }
+
+#productViewer {border: 1px solid grey;padding:15px;margin:10px;}
+
+#productAction {border: 1px solid grey;padding:15px;margin:10px;}
+
+#productDetails {border: 1px solid grey;padding:15px;margin:10px;text-align:left;color:grey;font-size:smaller;}
+
+#action_detail {display:none;}
+
+._button {width: 100%;background-color: #599197;font-size: 16px;border-radius: 10px;padding: 10px;border: none;font-family: verdana;font-weight: bold;color: white;}
+
+._list {list-style: circle;list-style-position: inside;white-space: pre-line;}
+
+._links {color:grey;font-size:smaller;}
+
+._dropdown {width:80%;color:grey;height:25px;}
+
+@media only screen and  (min-width : 800px) {
+	#productAction {width:225px;float:right;}
+	#productViewer {margin-right:280px;}
+	#action_detail {display:block;}
+}
+
+#videoPanel {border: 1px solid grey; padding:15px; display:inline-block; margin:auto; width:45%; overflow:hidden;}
+	
+@media only screen and (max-width : 715px) {
+		#videoPanel {width:90%;}
+		.vidDetails > p { font-size:12px; }
+}
